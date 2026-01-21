@@ -2,11 +2,11 @@
 // Obrigatoriamente tem uma data, quantidade e valor.
 // seu volume é calculado multiplicando-se a quantidade negociada no dia pelo valor negociado.
 export class Negociacao {
-    private _data;
-    private _quantidade;
-    private _valor;
+    private _data: Date;
+    private _quantidade: number;
+    private _valor: number;
     
-    constructor(data, quantidade, valor) {
+    constructor(data: Date, quantidade: number, valor: number) {
         this._data = data;
         this._quantidade = quantidade;
         this._valor = valor;
