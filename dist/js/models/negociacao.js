@@ -1,6 +1,3 @@
-// não pode ser modificada depois de criada
-// Obrigatoriamente tem uma data, quantidade e valor.
-// seu volume é calculado multiplicando-se a quantidade negociada no dia pelo valor negociado.
 export class Negociacao {
     constructor(data, quantidade, valor) {
         this._data = data;
